@@ -30,4 +30,4 @@ The goal of this task is to create a component that accepts a Taxonomy object an
 
 ## Requirements
 Some set up has already been done to help you: 
-- /App.tsx
+- [App.tsx](src/App.tsx) renders the Taxonomy list component as well as the TaxonomyItem component. 
