@@ -25,3 +25,9 @@ A sample Taxonomy JSON object is show below. The Taxonomy contains a list of _ca
   },
 ];
 ```
+
+The goal of this task is to create a component that accepts a Taxonomy object and renders the object in the following form. 
+
+## Requirements
+Some set up has already been done to help you: 
+- /App.tsx
