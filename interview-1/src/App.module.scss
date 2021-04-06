@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+
+  .taxonomy-entries {
+    margin-bottom: 80px;
+    display: flex;
+    .taxonomy-entries__container {
+      display: flex;
+      margin-right: 40px;
+    }
+  }
+
+  .taxonomies {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 40px;
+    justify-content: center;
+  }
+}
