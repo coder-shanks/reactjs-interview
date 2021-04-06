@@ -1,2 +1,2 @@
-# reactjs-interview
-Repository containing details for the RedBrick AI Technical interview
+# Hi there!
+This repositiory contains details for the RedBrick AI Front end technical interview. 
