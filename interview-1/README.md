@@ -31,3 +31,5 @@ The goal of this task is to create a component that accepts a Taxonomy object an
 ## Requirements
 Some set up has already been done to help you: 
 - [App.tsx](src/App.tsx) renders the Taxonomy list component as well as the TaxonomyItem component. 
+- Complete the TaxonomyItem component inside the [Taxonomy](src/Taxonomy) directory. Refer to the Typescript interfaces for the details of the props. Create this component to render a single list item in the styles shown above. 
+- Complete the [recurseTax()](src/Taxonomy/index.tsx) function to recursively render the nested Taxonomy object. The style of the final component should match what is shown above. 
