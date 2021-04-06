@@ -4,7 +4,7 @@ This repository contains instructions for the RedBrick AI React.js interview. Th
 
 A sample JSON object is show below: 
 
-```
+```js
 [
   {
     name: 'object',
