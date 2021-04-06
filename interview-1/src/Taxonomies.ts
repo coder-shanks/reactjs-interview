@@ -12,7 +12,14 @@ export const nestedTaxonomy: TaxonomyEntry[] = [
         children: [
           { name: 'sedan', classId: 6, children: [] },
           { name: 'suv', classId: 7, children: [] },
-          { name: 'truck', classId: 8, children: [] },
+          {
+            name: 'truck',
+            classId: 8,
+            children: [
+              { name: 'big', classId: 11, children: [] },
+              { name: 'small', classId: 12, children: [] },
+            ],
+          },
         ],
       },
       { name: 'traffic light', classId: 2, children: [] },
