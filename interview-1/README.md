@@ -1,8 +1,8 @@
 # Hello!
 
-This repository contains instructions for the RedBrick AI React.js interview. The objective is to create a component to render a nested JSON object containing the names of various categories. 
+This repository contains instructions for the RedBrick AI React.js interview. The objective is to create a component to render a nested JSON object (called a Taxonomy) containing the names of various categories. 
 
-A sample JSON object is show below: 
+A sample Taxonomy JSON object is show below. The Taxonomy contains a list of _categories_ that have a unique `name`, and `classId`. Each Taxonomy entry can also have a list of `children` which are also valid Taxonomy objects. 
 
 ```js
 [
