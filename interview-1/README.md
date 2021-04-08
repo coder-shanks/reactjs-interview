@@ -34,6 +34,7 @@ The goal of this task is to create a component that accepts a Taxonomy object an
 
 - There are two taxonomies in the Taxonomies.ts file, please use those to render the component as shown above.
 - Feel free to structure the component and styling however you see fit.
+- Use the `stringToColor` in utils.ts to generate the color based on the category name.
 
 ## What are we looking for?
 

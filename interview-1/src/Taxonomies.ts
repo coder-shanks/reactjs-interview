@@ -1,4 +1,11 @@
-import { TaxonomyEntry } from './Taxonomy';
+/*
+ * Typescript interface for a single Taxonomy entry
+ */
+export interface TaxonomyEntry {
+  name: string;
+  children: TaxonomyEntry[];
+  classId: number;
+}
 
 // Nested Taxonomy
 export const nestedTaxonomy: TaxonomyEntry[] = [
