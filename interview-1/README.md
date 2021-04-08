@@ -27,8 +27,8 @@ A sample Taxonomy JSON object is show below. The Taxonomy contains a list of _ca
 ```
 
 The goal of this task is to create a component that accepts a Taxonomy object and renders the object in the following form.
+<img width="678" alt="Screen Shot 2021-04-06 at 2 37 50 PM" src="https://user-images.githubusercontent.com/39279017/114052107-5c483e00-98ab-11eb-92aa-d86eb819c8a6.png">
 
-<img width="709" alt="Screen Shot 2021-04-06 at 2 48 01 PM" src="https://user-images.githubusercontent.com/39279017/113688615-1c385e00-96e7-11eb-802a-4d7e4948e556.png">
 
 ## Requirements
 
