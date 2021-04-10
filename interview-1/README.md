@@ -55,4 +55,4 @@ The goal of this task is to create a component that accepts a Taxonomy object an
 
 - How you break down the problem and structure your component.
 - Your approach to the specific component implementation, handling of the Taxonomy object data, structure, and nesting.
-- Your attention to detail in replicating the end solution shown above, including .
+- Your attention to detail in replicating the end solution shown above, including accuracy of your solution, and the styling of your component.
