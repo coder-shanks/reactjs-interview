@@ -35,7 +35,7 @@ A sample Taxonomy JSON object is show below.
 The Taxonomy JSON object contains a list of _categories_, here is some additional information about taxonomy objects:
 
 - Each entry in the Taxonomy JSON object has a unique `name` and unique `classId`
-- Each Taxonomy list entry can have `children`. If the `children` field is empty i.e. `[]`, that entry has not `children` entries.
+- Each Taxonomy list entry can have `children`. If the entry has no children, the `children` entry will be `[]`.
 - The `children` nesting level **can be of an artbitrary depth**. In the example above, `fruit` categories has two children - `apple` and `mango`, but it's also possible for those categories to have children, and their children to have children and so on.
 
 ### Task
@@ -44,7 +44,7 @@ The goal of this task is to create a component that accepts a Taxonomy object an
 
 <img width="577" alt="Screen Shot 2021-04-06 at 2 37 50 PM" src="https://user-images.githubusercontent.com/39279017/114272663-a872ba00-9a34-11eb-8dd4-cd3d873720db.png">
 
-- Create a component that accepts a Taxonomy object (please see `Taxonomies.ts` for the Typescrit interface for the taxonomy object), and renders the taxonomy with the styles shown below.
+- Create a component that accepts a Taxonomy object (please see `Taxonomies.ts` for the Typescrit interface for the taxonomy object), and renders the taxonomy with the styles shown below. Your component should also accept a `selected` string value, and highlight the proper selected item in the list. In the image above, `sedan` is the `selected` item in the first taxonomy, and `glass` is the selected item in the second taxonomy.
 - In `App.tsx` please use your created component to display both the Taxonomies from `Taxonomy.ts` with the exact styling as shown above.
 - Feel free to structure the component(s) and CSS however you see fit.
 - Use the `stringToColor` in `utils.ts` to generate the color based on the category name.
