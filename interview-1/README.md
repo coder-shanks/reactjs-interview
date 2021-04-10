@@ -42,7 +42,7 @@ The Taxonomy JSON object contains a list of _categories_, here is some additiona
 
 The goal of this task is to create a component that accepts a Taxonomy object and renders the object in the following form.
 
-<img width="709" alt="Screen Shot 2021-04-06 at 2 48 01 PM" src="https://user-images.githubusercontent.com/39279017/113688615-1c385e00-96e7-11eb-802a-4d7e4948e556.png">
+<img width="577" alt="Screen Shot 2021-04-06 at 2 37 50 PM" src="https://user-images.githubusercontent.com/39279017/114272663-a872ba00-9a34-11eb-8dd4-cd3d873720db.png">
 
 ## Requirements
 
