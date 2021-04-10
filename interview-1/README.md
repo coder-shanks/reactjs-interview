@@ -44,12 +44,12 @@ The goal of this task is to create a component that accepts a Taxonomy object an
 
 <img width="577" alt="Screen Shot 2021-04-06 at 2 37 50 PM" src="https://user-images.githubusercontent.com/39279017/114272663-a872ba00-9a34-11eb-8dd4-cd3d873720db.png">
 
-- Create a component that accepts a Taxonomy object (please see `Taxonomies.ts` for the Typescrit interface for the taxonomy object), and renders the taxonomy with the styles shown below. Your component should also accept a `selected` string value, and highlight the proper selected item in the list. In the image above, `sedan` is the `selected` item in the first taxonomy, and `glass` is the selected item in the second taxonomy.
-- In `App.tsx` please use your created component to display both the Taxonomies from `Taxonomy.ts` with the exact styling as shown above.
-- Feel free to structure the component(s) and CSS however you see fit.
-- Use the `stringToColor` in `utils.ts` to generate the color based on the category name.
-- Use `#eaecec` for the borders of the list, and `box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px` for the shadows of the list.
-- Please keep in mind that the two taxonomy objects in `Taxonomies.ts` are just two examples of taxonomy objects. Don't hardcode your component to work with only these two components, your component should be generic to taxonomy objects described above.
+1. Create a component that accepts a Taxonomy object (please see `Taxonomies.ts` for the Typescrit interface for the taxonomy object), and renders the taxonomy with the styles shown below. Your component should also accept a `selected` string value, and highlight the proper selected item in the list. In the image above, `sedan` is the `selected` item in the first taxonomy, and `glass` is the selected item in the second taxonomy.
+2. In `App.tsx` please use your created component to display both the Taxonomies from `Taxonomy.ts` with the exact styling as shown above.
+3. Feel free to structure the component(s) and CSS however you see fit.
+4. Use the `stringToColor` in `utils.ts` to generate the color based on the category name.
+5. Use `#eaecec` for the borders of the list, and `box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px` for the shadows of the list.
+6. Please keep in mind that the two taxonomy objects in `Taxonomies.ts` are just two examples of taxonomy objects. Don't hardcode your component to work with only these two components, your component should be generic to taxonomy objects described above.
 
 ## What are we looking for?
 
