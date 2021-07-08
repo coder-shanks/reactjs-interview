@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
-import { TaxonomyEntry } from '../../Taxonomies';
 
+import { TaxonomyEntry } from '../../Taxonomies';
 import TaxonomyItem from '../taxonomy-item/taxonomy-item.component';
 import './taxonomy.styles.scss';
 
@@ -19,7 +19,6 @@ const Taxonomy: FC<TaxonomyEntryProps> = ({ taxonomyEntries }) => {
           taxonomyItem={taxonomyEntry}
           changeSelection={(index: number) => setSelected(index)}
           selectedItem={selected}
-          isParent={true}
         />
       ))}
     </div>
