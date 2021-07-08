@@ -1,0 +1,47 @@
+.child-container {
+  width: auto;
+  // margin-top: 6px;
+
+  & > div {
+    padding-left: 8px;
+  }
+}
+
+.item {
+  &-container {
+    display: flex;
+    border-bottom: 1px solid #eaecec;
+    align-items: center;
+    padding: 8px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      background-color: rgba($color: #eaecec, $alpha: 0.5);
+    }
+  }
+
+  &-text {
+    font-size: 16px;
+    margin: 0;
+
+    &-bold {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  }
+
+  &-rectangle {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
+    margin-right: 5px;
+  }
+}
+
+.selected {
+  background-color: rgba($color: #eaecec, $alpha: 0.5);
+}
